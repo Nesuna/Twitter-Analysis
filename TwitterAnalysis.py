@@ -195,6 +195,7 @@ class TwitterAnalysis(EventBasedAnimationClass):
         if not(os.path.exists("Twitter Data")):
             os.makedirs("Twitter Data")
         TwitterAnalysis.writeFile(path, data)
+        print "Data saved!"
 
 
     def topNWordsString(self):
